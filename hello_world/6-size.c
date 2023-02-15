@@ -1,7 +1,6 @@
 #include <stdio.h>
-
-int main(void)
 /* Este programa muestra el tamaño en bytes de varios tipos de datos en C */
+int main(void)
 {
 int i;
 char c;
