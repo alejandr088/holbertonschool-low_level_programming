@@ -8,13 +8,15 @@
 /* more headers goes there */
 int main(void)
 {
-	char c = 'a';
+char c = 'a';
 
-	while (c != 'q' || c != 'e' && c <= 'z')
-		c++;
-
-	putchar(c);
-	putchar('\n');
-
-	return (0);
+while (c <= 'z')
+{
+if (c != 'e' && c != 'q');
+{
+putchar(c);
+}
+c++;
+}
+return (0);
 }
