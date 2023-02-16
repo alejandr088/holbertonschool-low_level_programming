@@ -7,14 +7,14 @@
 /* more headers goes there */
 int main(void)
 {
-	char c = 'a';
-	char b = 'A';
+	char c;
 
-	for (c = 'a'; c <= 'z'; c++ && b = 'A'; b <= 'Z'; b++)
+	for (c = 'a'; c <= 'z'; c++)
 	putchar(c);
-	putchar(b);
-	putchar('\n');
 
+	for (c = 'A'; c <= 'Z'; c++)
+	putchar(c);
+	putchar('\n');
 	return (0);
 }
 
