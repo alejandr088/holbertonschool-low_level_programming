@@ -1,12 +1,12 @@
 /**
- * includes 
+ * includes
  *
- * -
+ * - yo
  */
 #include <stdio.h>
 
 /**
- * main - 
+ * main - aqui se inicializa el main
  *
  * Return: Always 0.
  */
