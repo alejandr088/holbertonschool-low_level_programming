@@ -14,14 +14,12 @@
  */
 void print_alphabet_x10(void)
 {
-char abcbig = 0;
+int abcbig = 0;
 char abc10;
-for (abcbig = 0; abcbig <= 10; abcbig++)
+while (abcbig++ <= 9)
 {
 for (abc10 = 'a'; abc10 <= 'z'; abc10++)
-{
-_putchar(abcbig);
-}
+_putchar(abc10);
 _putchar('\n');
 }
 }
