@@ -10,12 +10,14 @@ int main(void)
 {
 int combis;
 
-for (combis = 0; combis < 9; combis++)
+for (combis = 0; combis <= 9 ;combis++)
 {
-putchar(combis + '0');
+	putchar(combis + '0');
+	if (combis==9)
+		continue;
 putchar(',');
 putchar(' ');
 }
-putchar('9');
+putchar('\n');
 return (0);
 }
