@@ -10,10 +10,10 @@ int main(void)
 {
 int combis;
 
-for (combis = 0; combis <= 9 ;combis++)
+for (combis = 0; combis <= 9 ; combis++)
 {
 	putchar(combis + '0');
-	if (combis==9)
+	if (combis == 9)
 		continue;
 putchar(',');
 putchar(' ');
