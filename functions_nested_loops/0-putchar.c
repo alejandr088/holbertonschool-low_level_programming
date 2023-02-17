@@ -4,6 +4,7 @@
  * - yo
  */
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - aqui se inicializa el main
