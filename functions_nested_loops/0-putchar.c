@@ -1,8 +1,9 @@
-/**
- * File: includes para el archivo actual
+/*
+ * File: 0-putchar.c
+ * Auth: alejandr088
  *
- * Auth: yo
  */
+
 #include <stdio.h>
 #include "main.h"
 
