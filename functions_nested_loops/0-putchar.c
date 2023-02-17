@@ -1,7 +1,7 @@
 /**
- * includes
+ * File: includes para el archivo actual
  *
- * - yo
+ * Auth: yo
  */
 #include <stdio.h>
 #include "main.h"
