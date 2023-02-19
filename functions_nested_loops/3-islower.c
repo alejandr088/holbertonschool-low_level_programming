@@ -8,8 +8,8 @@
 #include "main.h"
 
 /**
- * int _islower(int c); - chequea caracteres en minuscula
- *
+ * _islower - chequea caracteres en minuscula
+ * @c: single letter input
  * Return: 1 si esta en minusculas, de lo contrario 0
  */
 int _islower(int c)
