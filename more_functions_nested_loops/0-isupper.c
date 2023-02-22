@@ -12,7 +12,7 @@
  * @c: single letter input
  * Return: 1 si esta en minusculas, de lo contrario 0
  */
-int _islower(int c)
+int _isupper(int c)
 {
 if (c >= 'a' && c <= 'z')
 return (1);
