@@ -1,0 +1,2 @@
+school:
+	echo "Hola"
