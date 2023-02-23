@@ -6,7 +6,7 @@
  */
 void more_numbers(void)
 {
-int unsigned num = 0;
+long num = 0;
 char diezveces = 0;
 while (diezveces++ <= 9)
 {
