@@ -14,6 +14,6 @@ for (num = 0; num <= 14; num++)
 {
 putchar(num + '0');
 }
-putchar('\n');
 }
+putchar('\n');
 }
