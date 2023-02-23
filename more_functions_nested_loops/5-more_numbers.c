@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_most_numbers - check code
+ * more_numbers - check code
  *
  */
-void print_most_numbers(void)
+void more_numbers(void)
 {
 int num;
 int diezveces = 0;
