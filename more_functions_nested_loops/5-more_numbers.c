@@ -7,7 +7,7 @@
 void more_numbers(void)
 {
 int num = 0;
-int num2 = 10;
+int num2;
 int diezveces = 0;
 while (diezveces++ <= 9)
 {
