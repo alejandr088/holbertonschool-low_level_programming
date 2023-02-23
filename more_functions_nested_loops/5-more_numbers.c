@@ -18,7 +18,7 @@ putchar(num + '0');
 for (num2 = 10; num2 <= 14; num2++)
 {
 putchar(num2 % 10 + '0');
-putchar('\n');
 }
+putchar('\n');
 }
 }
