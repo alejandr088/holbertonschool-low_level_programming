@@ -21,7 +21,7 @@ if (num2 >= 9)
 {
 putchar(num2 % 10 + '0');
 }
-putchar('\n');
 }
+putchar('\n');
 }
 }
