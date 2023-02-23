@@ -6,8 +6,8 @@
  */
 void more_numbers(void)
 {
-long int num = 0;
-int diezveces = 0;
+int num = 0;
+int diezveces;
 while (diezveces++ <= 9)
 {
 for (num = 0; num <= 14; num++)
