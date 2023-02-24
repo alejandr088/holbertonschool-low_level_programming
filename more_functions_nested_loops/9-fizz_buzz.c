@@ -17,11 +17,11 @@ printf("FizzBuzz ");
 }
 else if (nums % 3 == 0)
 {
-printf("Fizz ");
+printf(" Fizz ");
 }
 else if (nums % 5 == 0)
 {
-printf("Buzz ");
+printf(" Buzz");
 }
 else if (nums == 100)
 {
@@ -29,7 +29,7 @@ printf("Buzz");
 }
 else
 {
-printf("%d ", nums);
+printf("%d", nums);
 }
 }
 printf("\n");
