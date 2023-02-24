@@ -5,7 +5,8 @@
  */
 void print_line(int n)
 {
-for (n = 'a'; n <= 'z'; n++)
+	int a;
+for (a = 1; a <= n; a++)
 {
 putchar('_' + '0');
 }
