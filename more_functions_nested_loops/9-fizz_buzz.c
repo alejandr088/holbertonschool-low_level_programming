@@ -28,6 +28,5 @@ else
 printf("%d ", nums);
 }
 }
-printf("\n");
 return (0);
 }
