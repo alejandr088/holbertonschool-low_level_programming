@@ -1,0 +1,26 @@
+#include "main.h"
+/**
+ * print_triangle - check code
+ * @size: single character
+ */
+void print_triangle(int size)
+{
+int a;
+int b;
+
+if (size > 0)
+{
+for (a = 0; a < size; a++)
+{
+for (b = 0; b < a; b++)
+{
+putchar(' ');
+}
+putchar('#');
+}
+}
+else
+{
+putchar('\n');
+}
+}
