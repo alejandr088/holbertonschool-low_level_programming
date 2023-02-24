@@ -32,10 +32,8 @@ else
 printf("%d ", nums);
 }
 }
-if (nums == 100)
 {
-printf("Buzz");
+printf("Buzz\n");
 }
-printf("\n");
 return (0);
 }
