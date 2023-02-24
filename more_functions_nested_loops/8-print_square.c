@@ -5,13 +5,18 @@
  */
 void print_square(int size)
 {
-int a;
+int fila;
+int colum;
 
 if (size > 0)
 {
-for (a = size; a >= size; a++)
+for (fila = 0; fila < size; fila++)
+{
+for (colum = 0; colum < size; colum++)
 {
 putchar('#');
+}
+putchar('\n');
 }
 }
 else
