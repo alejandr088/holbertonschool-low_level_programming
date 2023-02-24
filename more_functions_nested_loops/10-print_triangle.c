@@ -11,7 +11,7 @@ int espacio;
 
 if (size > 0)
 {
-for (fila = size; fila >= 1; fila--)
+for (fila = 1; fila <= size; fila++)
 {
 for (espacio = size - fila; espacio > 0; espacio--)
 {
