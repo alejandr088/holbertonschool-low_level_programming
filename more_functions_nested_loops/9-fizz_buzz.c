@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * exercise - Entry point
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 /* more headers goes there */
-int exercise(void)
+int main(void)
 {
 int nums;
 
@@ -23,9 +23,8 @@ printf("Fizz ");
 else if (nums % 3 == 0 && nums % 5 == 0)
 {
 printf("BuzzFizz ");
-printf(" ");
+}
 }
 printf("\n");
-}
 return (0);
 }
