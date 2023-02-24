@@ -9,7 +9,7 @@ int main(void)
 {
 int nums;
 
-for (nums = 1; nums <= 100; nums++)
+for (nums = 1; nums <= 99; nums++)
 {
 if (nums == 100)
 printf("Buzz");
