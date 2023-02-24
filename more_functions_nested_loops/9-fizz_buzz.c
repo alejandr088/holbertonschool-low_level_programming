@@ -22,7 +22,7 @@ printf("Fizz ");
 }
 else if (nums % 3 == 0 && nums % 5 == 0)
 {
-printf("BuzzFizz ");
+printf("FizzBuzz ");
 }
 }
 printf("\n");
