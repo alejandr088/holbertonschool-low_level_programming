@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * exercise - Entry point
  *
@@ -29,5 +28,5 @@ printf(" ");
 }
 printf("\n");
 }
-return (0);
+return (nums);
 }
