@@ -9,7 +9,7 @@ int a;
 
 if (size > 0)
 {
-for (a = size; a <= size; a++)
+for (a = size; a >= size; a++)
 {
 putchar('#');
 }
