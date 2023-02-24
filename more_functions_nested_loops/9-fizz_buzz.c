@@ -23,8 +23,10 @@ else if (nums % 5 == 0)
 {
 printf("Buzz ");
 }
-if (nums == 100)
+else if (nums == 100)
+{
 printf("Buzz");
+}
 else
 {
 printf("%d ", nums);
