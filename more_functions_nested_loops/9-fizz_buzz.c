@@ -9,22 +9,23 @@ int main(void)
 {
 int nums;
 
-for (nums = 1; nums <= 100 ; nums++)
 {
-printf("%d ", nums);
-if (nums % 3 == 0)
+for (nums = 1; nums <= 100; nums++)
 {
-printf("Buzz ");
+if (nums % 3 == 0 && nums % 5 == 0)
+{
+printf("FizzBuzz ");
 }
-else if (nums % 5 == 0)
+else if (nums % 3 == 0)
 {
 printf("Fizz ");
 }
-else if (nums % 3 == 0 && nums % 5 == 0)
+else if (nums % 5 == 0)
 {
-printf("FizzBuzz ");
+printf("Buzz ");
 }
 }
 printf("\n");
 return (0);
+}
 }
