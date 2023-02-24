@@ -5,14 +5,19 @@
  */
 void print_triangle(int size)
 {
-int a;
-int b;
+int fila;
+int colum;
+int espacio;
 
 if (size > 0)
 {
-for (a = 0; a < size; a++)
+for (fila = size; fila >= 1; fila--)
 {
-for (b = 0; b < a; b++)
+for (espacio = size - fila; espacio > 0; espacio--)
+{
+putchar(' ');
+}
+for (colum = 1; colum <= fila; colum++)
 {
 putchar('#');
 }
