@@ -5,17 +5,17 @@
  */
 void more_numbers(void)
 {
-int num = 0;
-int diezveces = 0;
-for (num = 0; num <= 9; num++)
+int num;
+int x10;
+for (num = 0; num < 10; num++)
 {
-for (diezveces = 0, diezveces <= 14; diezveces++)
+for (x10 = 0; x10 <= 14; x10++)
 {
-if (num >= 9)
+if (x10 > 9)
 {
-putchar(num / 10 + '0');
+putchar(x10 / 10 + '0');
 }
-putchar(num % 10 + '0');
+putchar(x10 % 10 + '0');
 }
 putchar('\n');
 }
