@@ -9,7 +9,7 @@ int main(void)
 {
 int nums;
 
-for (nums = 1; nums < 99; nums++)
+for (nums = 1; nums <= 99; nums++)
 {
 if (nums % 3 == 0 && nums % 5 == 0)
 {
