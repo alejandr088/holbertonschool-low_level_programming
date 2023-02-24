@@ -11,6 +11,8 @@ int nums;
 
 for (nums = 1; nums <= 100; nums++)
 {
+if (nums == 100)
+printf("Buzz");
 if (nums % 3 == 0 && nums % 5 == 0)
 {
 printf("FizzBuzz ");
