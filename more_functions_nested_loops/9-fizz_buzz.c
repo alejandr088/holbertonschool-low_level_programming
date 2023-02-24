@@ -9,10 +9,8 @@ int main(void)
 {
 int nums;
 
-for (nums = 1; nums <= 99; nums++)
+for (nums = 1; nums <= 100; nums++)
 {
-if (nums == 100)
-printf("Buzz");
 if (nums % 3 == 0 && nums % 5 == 0)
 {
 printf("FizzBuzz ");
@@ -25,6 +23,8 @@ else if (nums % 5 == 0)
 {
 printf("Buzz ");
 }
+if (nums == 100)
+printf("Buzz");
 else
 {
 printf("%d ", nums);
