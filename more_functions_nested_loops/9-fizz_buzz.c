@@ -27,7 +27,7 @@ else
 {
 printf("%d ", nums);
 }
-printf("\n");
 }
+printf("\n");
 return (0);
 }
