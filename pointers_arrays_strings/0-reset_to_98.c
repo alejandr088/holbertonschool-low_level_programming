@@ -1,12 +1,12 @@
 #include<stdio.h>
 /**
  * reset_to_98 - check code
- * @n: single character input
- * Return: 1 si s = int,, de lo contrario 0
+ * @n: single character
+ * Return: Always 0
  */
 void reset_to_98(int *n)
 {
 int m = 98;
 
-printf("%d", m = *n);
+printf("%d", *n = m);
 }
