@@ -8,5 +8,5 @@ void reset_to_98(int *n)
 {
 int m = 98;
 
-printf("%d", m);
+printf("%d", *n == m);
 }
