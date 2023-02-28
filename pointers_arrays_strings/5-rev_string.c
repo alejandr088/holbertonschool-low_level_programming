@@ -15,7 +15,6 @@ for (len = 0; s[len] != 0; len++)
 {
 i = 0;
 j = len / 2;
-putchar(s[len]);
 }
 while (j--)
 {
