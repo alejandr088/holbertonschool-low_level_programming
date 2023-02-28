@@ -11,7 +11,7 @@ int i;
 int j;
 char count;
 
-for (len = 0; s[len] != 0; len++)
+for (len = 0; s[len] != '\0'; len++)
 {
 i = 0;
 j = len / 2;
