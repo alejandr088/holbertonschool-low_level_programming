@@ -12,10 +12,9 @@ int j;
 char count;
 
 for (len = 0; s[len] != '\0'; len++)
-{
+;
 i = 0;
 j = len / 2;
-}
 while (j--)
 {
 count = s[len - i - 1];
