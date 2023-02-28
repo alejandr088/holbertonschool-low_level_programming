@@ -12,7 +12,7 @@ while (s[len] != 0)
 {
 len++;
 }
-while (len > 0)
+for (s[len] = 0; len > 0; len++)
 {
 len--;
 putchar(s[len]);
