@@ -7,6 +7,6 @@
 int _strlen(char *s)
 {
 s = "Holberton";
-
-return (_strlen(s));
+int resultado = _strlen(s);
+return (resultado);
 }
