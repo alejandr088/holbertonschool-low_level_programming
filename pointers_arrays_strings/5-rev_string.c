@@ -15,6 +15,6 @@ len++;
 while (len > 0)
 {
 len--;
-putchar(len);
+putchar(s[len]);
 }
 }
