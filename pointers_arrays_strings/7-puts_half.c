@@ -22,7 +22,7 @@ else if (len % 2)
 {
 for (i = (len - 1) / 2; j < len - 1; j++)
 {
-putchar(str[j - len]);
+putchar(str[j + 1]);
 }
 }
 putchar('\n');
