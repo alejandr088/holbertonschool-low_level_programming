@@ -24,6 +24,6 @@ for (i = (len - 1) / 2; j < len - 1; j++)
 {
 putchar(str[j - len]);
 }
-putchar('\n');
 }
+putchar('\n');
 }
