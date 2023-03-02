@@ -7,12 +7,18 @@
  */
 char *_strcat(char *dest, char *src)
 {
-char *start = dest;
+char *go = dest;
 
-for (src != '\0'; dest != '\0'; dest++; src++;)
-for (
-
-
-
-return (dest);
+while (*dest != '\0')
+{
+dest++;
+}
+while (*src != '\0')
+{
+src++;
+dest++;
+dest = src;
+}
+*dest = '\0';
+return (go);
 }
