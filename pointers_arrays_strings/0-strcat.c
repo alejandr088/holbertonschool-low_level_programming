@@ -2,11 +2,17 @@
 /**
  * *_strcat - check code
  * @dest: destiny
- * @src: source file
+ * @src: source
  * Return: pointer to "dest"
  */
 char *_strcat(char *dest, char *src)
 {
-dest = src + '\0';
+char *start = dest;
+
+for (src != '\0'; dest != '\0'; dest++; src++;)
+for (
+
+
+
 return (dest);
 }
