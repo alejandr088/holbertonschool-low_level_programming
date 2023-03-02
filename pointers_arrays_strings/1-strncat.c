@@ -16,7 +16,7 @@ a++;
 }
 while (b < n && src[b] != '\0')
 {
-dest[a] = src[a];
+dest[a] = src[b];
 b++;
 a++;
 }
