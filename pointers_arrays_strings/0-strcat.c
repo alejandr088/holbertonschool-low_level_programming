@@ -15,9 +15,9 @@ dest++;
 }
 while (*src != '\0')
 {
-src++;
+*dest = *src;
 dest++;
-dest = src;
+src++;
 }
 *dest = '\0';
 return (go);
