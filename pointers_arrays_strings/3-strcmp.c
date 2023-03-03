@@ -13,7 +13,7 @@ while (s1[n] == s2[n])
 {
 if (s1[n] == '\0')
 {
-return (n);
+return (0);
 }
 n++;
 }
