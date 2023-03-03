@@ -7,7 +7,7 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-int n;
+int n = 0;
 
 while (s1[n] == s2[n])
 {
