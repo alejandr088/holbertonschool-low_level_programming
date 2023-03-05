@@ -16,7 +16,6 @@ for (j = 0; j < 8; j++)
 {
 c = *(a[i] + j);
 _putchar(c);
-_putchar(' ');
 }
 putchar('\n');
 }
