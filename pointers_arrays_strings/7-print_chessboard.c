@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * print_chessboard - Check code
- * @a: pointer to s.
- * Return: a pointer to byte in s, or NULL.
+ * @a: output.
  */
 
 void print_chessboard(char (*a)[8])
@@ -13,8 +12,8 @@ for (i = 0; i < 8 && a[i]; i++)
 {
 for (j = 0; j < 8; j++)
 {
-_putchar(a[i][j]);
-_putchar('\n');
+putchar(a[i][j]);
+putchar('\n');
 }
 }
 }
