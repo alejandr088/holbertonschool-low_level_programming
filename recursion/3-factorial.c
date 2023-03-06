@@ -7,22 +7,9 @@
 int factorial(int n)
 {
 	if (n < 0)
-		{
 		return (-1);
-		}
 	else if (n == 0)
-	{
 		return (1);
-	}
 	else
-		{
-			int result = 1;
-			int i = 2;
-
-			for (; i <= n; i++)
-			{
-				result *= i;
-			}
-			return (result);
-		}
+		return (n * factorial(n - 1));
 }
