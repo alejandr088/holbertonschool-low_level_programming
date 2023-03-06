@@ -1,15 +1,25 @@
 #include <stdio.h>
 /**
- * leet - check code
- * @a: string
- * Return: 
+ * leet - check code.
+ * @str: string
+ * Return: pointer to string converted
  */
-int main(void)
+char *leet(char *str)
 {
-int i = 0;
-int len;
-for (i = 0; i <= len; i++)
-{
-if (str[i] = 'a' || str[i] = 'e' || str[i] = 'o' || str[i] = 't' || str[i] = 'l')
+char *s = str;
+char leet_orig[8] = {'A', 'a', 'E', 'e', 'L', 'l', 'O', 'o'};
+char leet_reemp[8] = {'4', '4', '3', '3', '1', '1', '0', '0'};
+int i, j;
 
+for (i = 0; i < 8; i++)
+{
+for (j = 0; s[j] != '\0'; j++)
+{
+if (s[j] == leet_orig[i])
+{
+s[j] = leet_reemp[i];
+}
+}
+}
+return (str);
 }
