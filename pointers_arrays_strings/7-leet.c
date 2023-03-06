@@ -7,11 +7,11 @@
 char *leet(char *str)
 {
 char *s = str;
-char leet_orig[8] = {'A', 'a', 'E', 'e', 'L', 'l', 'O', 'o'};
-char leet_reemp[8] = {'4', '4', '3', '3', '1', '1', '0', '0'};
+char leet_orig[10] = {'A', 'a', 'E', 'e', 'O', 'o', 'T', 't', 'L', 'l'};
+char leet_reemp[10] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 int i, j;
 
-for (i = 0; i < 8; i++)
+for (i = 0; i < 10; i++)
 {
 for (j = 0; s[j] != '\0'; j++)
 {
