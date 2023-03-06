@@ -20,7 +20,7 @@ int factorial(int n)
 
 			for (int i = 2; i <= n; i++)
 			{
-				result = result * i;
+				result *= i;
 			}
 			return (result);
 		}
