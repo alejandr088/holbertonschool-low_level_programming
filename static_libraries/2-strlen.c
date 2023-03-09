@@ -6,7 +6,14 @@
  */
 int _strlen(char *s)
 {
-int len;
-len = strlen(s);
-return (len);
+
+int len = 1, sum = 0;
+char pl = s[0];
+
+while (pl != '\0')
+{
+	sum++;
+	pl = s[len++];
+}
+return (sum);
 }
