@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 {
 	int result;
 
-	if (argc >= 2)
+	if (argc == 2)
 	{
 		result = (int) *argv[1] * (int) *argv[2];
 		printf("%d\n", result);
