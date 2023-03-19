@@ -2,7 +2,7 @@
 /**
  * free_grid - frees 2d grids prev created.
  * @height: height.
- * @grid: grid
+ * @grid: grid.
  */
 void free_grid(int **grid, int height)
 {
