@@ -8,7 +8,7 @@
 {
 	unsigned int i;
 	char *copy;
-	int len = 0;
+	unsigned int len = 0;
 
 	if (str == NULL)
 	{
