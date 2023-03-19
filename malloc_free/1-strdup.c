@@ -22,6 +22,7 @@
 	for (i = 0; i < len; i++)
 		*(copy + i) = *(str + i);
 	*(copy + len) = '\0';
-	free(copy);
 	return (copy);
+	if (copy != NULL)
+	free(copy);
 }
