@@ -3,7 +3,7 @@
 #include "main.h"
 /**
  * @struct dog
- * @ a struct that represents dogs and them attributes.
+ * @brief A struct that represents dogs and them attributes.
  */
 
 struct dog
