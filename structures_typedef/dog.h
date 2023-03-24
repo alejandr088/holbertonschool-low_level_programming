@@ -8,8 +8,8 @@
 
 struct dog
 {
-char *name;
-float age;
-char *owner;
+char *name; /**< Name of the dog */
+float age; /**< Age of the dog */
+char *owner; /**< Owner name of the dog */
 };
 #endif
