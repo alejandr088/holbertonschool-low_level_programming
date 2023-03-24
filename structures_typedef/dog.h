@@ -2,9 +2,11 @@
 #define _DOG_H
 #include "main.h"
 /**
- * @struct dog
- * @brief A struct that represents dogs and them attributes.
- */
+ * struct dog - a struct that represents a dog.
+ * @name: name of the dog.
+ * @age: age of the dog.
+ * @owner: owner of the dog.
+ * */
 
 struct dog
 {
