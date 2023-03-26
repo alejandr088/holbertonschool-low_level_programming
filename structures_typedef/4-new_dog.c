@@ -3,9 +3,9 @@
 #include "dog.h"
 /**
  * new_dog - creates a new dog
- * @owner: owner name of the dog.
  * @name: name of the dog.
  * @age: age of the dog.
+ * @owner: owner name of the dog.
  * Return: void
  */
 dog_t *new_dog(char *name, float age, char *owner)
@@ -17,8 +17,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	if (p == NULL || p->name == NULL || p->owner == NULL)
 	{
-		free(p->name);
-		free(p->owner);
+		free(name);
+		free(owner);
 		free(p);
 		return (NULL);
 	}
