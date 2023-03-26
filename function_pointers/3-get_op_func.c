@@ -18,9 +18,9 @@ op_t op_s[] = {
 
 	int i = 0;
 
-	while (op_s[i].op)
+	while (*s && op_s[i].op)
 {
-	if (*(op_s[i].op) == *s)
+	if (!strcmp(s, op_s[i].op))
 	return (op_s[i].f);
 	i++;
 }
