@@ -6,14 +6,9 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	char newline[] = "\n";
-
-	while (*name != '\0')
+	while (f)
 	{
 		f(name);
-		name++;
 	}
-
-	f(newline);
 }
 
