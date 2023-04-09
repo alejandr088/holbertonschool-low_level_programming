@@ -4,7 +4,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct list_s {
+/**
+ * struct list_s - single linked lists
+ * @str: string
+ * @len: length of str
+ * @next: point to next node
+ *
+ * Description: gingly linked lists node struct
+ */
+typedef struct list_s
+{
 	char *str;
 	unsigned int len;
 	struct list_s *next;
