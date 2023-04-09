@@ -5,7 +5,7 @@
 
 typedef struct list_s {
 	char *str;
-	void *data;
+	int *data;
 	size_t len;
 	struct list_s *next;
 } list_t;
