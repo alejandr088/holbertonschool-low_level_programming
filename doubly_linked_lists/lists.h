@@ -16,11 +16,11 @@
 typedef struct dlistint_s
 {
 	int n;
-	char *str;
-	unsigned int len;
 	struct dlistint_s *prev;
 	struct dlistint_s *next;
-} dlistint_t;
+	char *str;
+	unsigned int len;
+	} dlistint_t;
 
 char *strdup(const char *s);
 size_t print_dlistint(const dlistint_t *h);
