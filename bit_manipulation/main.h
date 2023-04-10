@@ -6,7 +6,6 @@
 #include <stdlib.h>
 
 /**
- * struct dlistint_s - doubly linked lists
  * @n: int stored in node.
  * @prev: pointer to prev element of list.
  * @next: point to next element.
