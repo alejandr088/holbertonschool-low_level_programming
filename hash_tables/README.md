@@ -1,1 +1,1 @@
-In this proyect we will learn all about File Descriptions, open, write, close & dprintf.
+In this proyect we will learn all about hash tables.
