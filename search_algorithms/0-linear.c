@@ -9,9 +9,9 @@
  */
 int linear_search(int *array, size_t size, int value)
 {
-    int i;
+    unsigned int i;
 
-    if (!array || !(array[value]))
+    if (!array)
     {
     return (-1);
     }
@@ -22,5 +22,9 @@ int linear_search(int *array, size_t size, int value)
         if (array[i] == value)
         return (i);
     }
+    
+    if (i == size)
+    return (-1);
+
     return (-1);
 }
