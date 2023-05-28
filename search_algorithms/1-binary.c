@@ -5,7 +5,9 @@ int binary_search(int *array, size_t size, int value)
 	if (!array || size == 0)
 		return (-1);
 
-	size_t left = 0, right = size - 1, half;
+	size_t left, right, half;
+    left = 0;
+    right = size - 1;
 
 	while (left <= right)
 	{
